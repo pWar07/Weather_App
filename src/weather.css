@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: lightblue;
+  background: url("../src/assets/day.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+input {
+  height: 50px;
+  width: 300px;
+  display: flex;
+  padding: 15px 20px;
+  margin-bottom: 22px;
+  font-size: 16px;
+  border-radius: 25px;
+  color: #ffffffdb;
+  border: 1px solid transparent;
+  outline: none;
+  background-color: #ffffff5c;
+}
+
+::placeholder {
+  color: #fff;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  background-color: #fff;
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+
+.show{
+    display: flex;
+    height:650px;
+    width:1200px;
+    padding: 20px;
+    background-color: #00000097;
+    border:1px solid #fff;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.left{
+    height: 100%;
+    width: 40%;
+    padding: 50px 0;
+}
+
+.left .title{
+    margin-bottom: 50px;
+}
+
+.left .headOne{
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.left h1{
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.left .img h4{
+    margin-bottom: 40px;
+}
+
+.left .img img{
+    height: 160px;
+    width: 160px;
+    margin-bottom: 20px;
+}
+
+.right{
+    height: 100%;
+    width: 60%;
+    padding: 50px 0;
+}
+
+.right h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+}
+
+.right h2{
+    font-size: 80px;
+}
+
+.right h2 span{
+    font-size: 50px;
+}
+
+.right p{
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.right .tempp{
+    display: flex;
+    justify-content: center;
+}
+
+.right .tempp .tempIcon{
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+.right .tempp h3{
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+.right .innerRight{
+    height: 280px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.right .innerRight div{
+    height: 100%;
+    width: 23%;
+    background-color: #ffffff5c;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerRight h2{
+    height: 50px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.innerRight h4{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.innerRight h3{
+    font-family: "Oswald", sans-serif;
+    font-size: 55px;
+    display: flex;
+}
+
+.innerRight h3 span{
+    font-size: 20px;
+    margin-top: 10px;
+}
