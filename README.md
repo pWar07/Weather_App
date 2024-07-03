@@ -6,7 +6,7 @@ git clone https://github.com/pWar07/Weather_App.git
 
 2. Go to the project folder and run npm install
 ```
-cd React-App-Gamers-Armary
+cd Weather_App
 ```
 ```
 npm install
